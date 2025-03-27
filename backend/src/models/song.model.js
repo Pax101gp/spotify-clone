@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const songSchema = new mongoose.Schema(
     {
-        titel: {
+        title: {
             type: String,
             required: true,
         },
